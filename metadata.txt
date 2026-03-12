@@ -1,0 +1,23 @@
+[general]
+name=GeoLote
+qgisMinimumVersion=3.0
+description=Analisa a sobreposição de um imóvel com múltiplas camadas vetoriais, gerando relatório e geometrias de interseção.
+version=1.0.0
+author=Henrique Lima de Sousa (Analista de Reforma e Desenvolvimento Agrário - INCRA/MA)
+email=henrique.sousa@incra.gov.br
+
+about=Plugin para análise de sobreposição de imóvel com múltiplas camadas. 
+    Utiliza filtro espacial para acelerar o processamento e gera:
+    - Relatório tabular com área e percentual de sobreposição por camada
+    - Camada vetorial com as geometrias de interseção
+
+tracker=https://github.com/seu-usuario/analise-sobreposicao/issues
+repository=https://github.com/seu-usuario/analise-sobreposicao
+
+hasProcessingProvider=yes
+tags=sobreposição, imóvel, análise, interseção, polígono
+homepage=https://github.com/seu-usuario/analise-sobreposicao
+category=Vector
+icon=geolote_icon.png
+experimental=False
+deprecated=False
